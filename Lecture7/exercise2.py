@@ -91,11 +91,11 @@ def add_user(L):
     # WRITE YOUR CODE BELOW
 
     while 1:
-        username = input("Username: ")
+        username = input("Enter Username: ")
         if valid_username(username, L):
             break
     while 1:
-        password = input("Password: ")
+        password = input("Enter Password: ")
         if valid_password(password):
             confirm_pwd = input("Confirm Password: ")
             if password == confirm_pwd:
